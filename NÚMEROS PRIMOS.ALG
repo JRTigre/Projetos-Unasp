@@ -1,23 +1,23 @@
-Algoritmo "NÚMEROS PRIMOS"
-// Disciplina   : [COMPUTATIONAL TRIKING ]
-// Descrição   : Indentifica se o número é ou não primo.
+Algoritmo "NÃšMEROS PRIMOS"
+// Disciplina   : [COMPUTATIONAL TRINKING ]
+// DescriÃ§Ã£o   : Indentifica se o nÃºmero Ã© ou nÃ£o primo.
 // Autor(a)    :  Jefferson Rodrigues Soares
 // Data atual  : 25/05/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
   x: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-// Utilizei o método de  Crivo de Eratóstenes.
-  escreva (" Escreva um Número:" )
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+// Utilizei o mÃ©todo de  Crivo de EratÃ³stenes.
+  escreva (" Escreva um NÃºmero:" )
   leia (x)
 
    se (x<0) ou (x=1) ou (x > 2 ) e ( x%2= 0) ou ( x > 3) e( x % 3 = 0) ou ( x > 5) e( x % 5= 0 )ou ( x > 7) e ( x % 7=0) entao
-  escreva( " Não é primo")
+  escreva( " NÃ£o Ã© primo")
 
   senao  (x / x = 1)
-   escreva ( "é Primo ")
+   escreva ( "Ã© Primo ")
 
    fimse
 
